@@ -148,4 +148,31 @@ li {
     list-style-type: circle;
 }
 
+footer {
+    display: inline-flex;
+    justify-content: end;
+    width: 100%;
+}
 
+footer a {
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 10%;
+    box-shadow: 5px 5px 5px;
+    color: rgb(18, 18, 20);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 5px;
+    text-decoration-line: none;
+    transform: translate(0, 0);
+    transition: transform 0.3s linear;
+    width: max-content;
+}
+
+footer a:hover {
+    color:  rgb(77, 89, 107);
+    transform: translate(10%, -10%);
+    transform: scale(1.2);   
+}
