@@ -1,0 +1,149 @@
+@import 'style.css';
+
+@media screen and (max-width: 768px) {
+    body {
+        margin: 0;
+    }
+
+    .main {
+        display: block;
+    }
+
+    header.header-content {
+        margin: 0;
+        position: unset;
+        width: 100%;
+    }
+
+    .header-content-avatar {
+        width: 40%;
+    }
+    .header-content-avatar-frame {
+        border: none;
+    }
+
+    .header-content-name {
+        width: 60%;
+    }
+
+    aside {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 0;
+        padding-top: 20px;
+        width: 100%;
+    }
+
+    .main-aside-content-general {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .main-aside-content-education {
+        order: 1;
+    }
+
+    .main-aside-content-contacts {
+        justify-content: end;
+        order: 2;
+    }
+
+    .main-aside-content-tech-skills {
+        order: 3;
+    }
+
+    .main-aside-content-soft-skills {
+        order: 4;
+    }
+
+    .main-aside-content-languages {
+        order: 5;
+    }
+    
+    .main-info {
+        margin: 0;
+        padding: 0;
+        padding-top: 10px;
+        width: 100%;
+    }
+
+    .main-info-general {
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 638px) {
+    
+    body {
+        margin: 0;
+    }
+
+    header.header-content {
+        margin: 0;
+        position: unset;
+        width: 100%;
+    }
+
+    .header-content-avatar-frame {
+        border: none;
+    }
+
+    .header-content-name {
+        font-size: 12px;
+        position: relative;
+        text-align: center;
+        width: 100%;
+    }
+
+    .header-content-name h1, h2 {
+        padding-right: 20px;
+    }
+
+    aside {
+        display: block;
+        justify-content: space-around;
+        padding: 0;
+        padding-top: 20px;
+        width: 100%;
+    }
+    
+    .main-aside-content-general {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .main-aside-content-languages {
+        padding-bottom: 20px;
+    }
+    
+    .main-info {
+        margin: 0;
+        padding: 0;
+        padding-top: 10px;
+        width: 100%;
+    }
+
+    .main-info-general {
+        padding: 0 20px;
+    }
+
+    .main-info-courses {
+        padding-bottom: 20px;
+    }
+}
+
+@media print and (width: 21cm) and (height:29.7cm){
+    @page{
+        
+        body {
+            width: 210mm;
+            height: 297mm;
+            background-color: #fff;
+        }
+        header {
+            display: none;
+        }
+    }
+    
+}

@@ -1,0 +1,151 @@
+body {
+    background-color:gray;
+    color: rgb(18, 18, 20);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 7% 7%;
+}
+
+header.header-content {
+    background-color: rgb(77, 89, 107);
+    color: #fff;
+    display: flex;
+    margin-top: 5%;
+    position: absolute;
+    width: 86%;
+}
+
+.header-content-avatar-frame {
+    border: 18px double rgb(209, 209, 209);
+    rotate: 25deg;
+}
+
+.header-content-avatar {
+    margin: 0;
+    padding: 40px 10px;
+    width: 30%;
+}
+
+.header-content-avatar-center {
+    display: flex;
+    justify-content: center;
+}
+
+.header-content-avatar img {
+    border-radius: 200px;
+    box-shadow: 0 0 5px 5px antiquewhite;
+    rotate: -25deg;
+    width: 70%;
+}
+
+.header-content-name {
+    align-content: center;
+    text-align: center;
+    width: 70%;
+}
+
+.header-content-position {
+    font-style: italic;
+}
+
+.main {
+    display: flex;
+}
+
+aside {
+    background-color:rgb(209, 209, 209);
+    width: 30%;
+    padding: 20px;
+    margin: 0;
+    padding-top: 45%;
+}
+
+ul {
+    padding-left: 20px;
+    text-align: left;
+    margin: 0;
+}
+
+.contacts {
+    margin-top: 20px;
+}
+
+#email {
+    list-style-image:URL(/images/icons8-email-20.png);
+}
+
+#phone-number {
+    list-style-image:URL(/images/icons8-phone-20.png);    
+}
+
+#location {
+    list-style-image:URL(/images/icons8-location-20.png);   
+}
+
+main h2 {
+    margin-top: 40px;
+}
+
+#specialty {
+    list-style-image:URL(/images/icons8-circle-15.png);
+}
+
+.specialty-name {
+    margin: 0;
+}
+
+.main-aside-content-university {
+    border-left: 2px solid rgb(77, 89, 107);
+    margin-left: 9px;
+    padding-left: 14px;
+}
+
+.main-aside-content-university p {
+    margin: 0;
+}
+
+li {
+    list-style-type: circle;
+    margin-left: 5px;
+}
+
+.main-info {
+    background-color:rgb(255, 252, 247);
+    margin: 0;
+    padding: 20px;
+    padding-top: 45%;
+    width: 70%;
+}
+
+.main-info-line {
+    border-top: 2px solid rgb(77, 89, 107);
+}
+
+.main-info-work-experience a {
+    color: rgb(77, 89, 107);
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline rgb(209, 209, 209) wavy;
+    text-shadow: 2px 2px 2px rgb(209, 209, 209);
+}
+.main-info-work-experience a:hover {
+    color: rgb(77, 89, 107);
+    font-size: large;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px rgb(77, 89, 107);
+}
+
+.main-info-courses ul {
+    margin-top: 16px;
+}
+
+.main-info-courses-headlines {
+    list-style-image:URL(/images/icons8-graduation-cap-15.png);
+    margin-top: 16px;
+}
+
+.main-info-courses-headlines li {
+    list-style-image: none;
+    list-style-type: circle;
+}
+
+
