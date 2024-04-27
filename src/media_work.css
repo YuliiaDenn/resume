@@ -2,26 +2,25 @@
 
 @media print {
     * {
-        background-color: #fff !important;
+        /* background-color: #fff !important; */
         font-size: 14pt !important;
     }
 
     body {
         height: 297mm;
-        margin-top: 0;
-        padding: 2cm !important;
+        margin: 0;
         width: 210mm;
     }
 
-    header, .main-content {
+    section {
         padding-bottom: 0;
         padding-top: 0;
     }
-
+/* 
     h1, h2 {
         color: rgb(18, 18, 20);
         font-size: 16pt !important;
-    }
+    } */
 
     .no-print { display: none !important; }
 }
