@@ -14,26 +14,17 @@ header.header-content {
     width: 86%;
 }
 
-.header-content-avatar-frame {
-    border: 18px double rgb(209, 209, 209);
-    rotate: 25deg;
-}
-
 .header-content-avatar {
     margin: 0;
-    padding: 40px 10px;
+    padding: 20px 10px;
     width: 30%;
-}
-
-.header-content-avatar-center {
     display: flex;
     justify-content: center;
 }
 
 .header-content-avatar img {
     border-radius: 200px;
-    box-shadow: 0 0 5px 5px antiquewhite;
-    rotate: -25deg;
+    box-shadow: 0 0 5px 5px #fff;
     width: 70%;
 }
 
@@ -52,11 +43,11 @@ header.header-content {
 }
 
 aside {
-    background-color:rgb(209, 209, 209);
+    background-color:rgb(236, 152, 184);
     width: 30%;
     padding: 20px;
     margin: 0;
-    padding-top: 45%;
+    padding-top: 30%;
 }
 
 ul {
@@ -109,10 +100,10 @@ li {
 }
 
 .main-info {
-    background-color:rgb(255, 252, 247);
+    background-color: #fff;
     margin: 0;
     padding: 20px;
-    padding-top: 45%;
+    padding-top: 30%;
     width: 70%;
 }
 

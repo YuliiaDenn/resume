@@ -85,10 +85,6 @@
         width: 100%;
     }
 
-    .header-content-avatar-frame {
-        border: none;
-    }
-
     .header-content-name {
         font-size: 12px;
         position: relative;
@@ -102,17 +98,21 @@
 
     aside {
         display: block;
-        justify-content: space-around;
+        justify-content: space-between;
         padding: 0;
         padding-top: 20px;
+        display: flex;
         width: 100%;
     }
     
     .main-aside-content-general {
-        margin-left: 3%;
-        margin-right: 3%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
+    .main-aside-content-contacts{
+        order: 1;
+    }
     .main-aside-content-languages {
         padding-bottom: 20px;
     }
@@ -139,6 +139,7 @@
     }
 
     body {
+        background-color: #fff;
         height: 297mm;
         margin: 0;
         width: 210mm;
@@ -153,11 +154,8 @@
         position:relative;
         width: 100%;
     }
-    .header-content-avatar {
-        padding: 0;
-    }
-
-    .main-info h2 {
+  
+    .main h2 {
         margin-top: 20px;
     }
     
